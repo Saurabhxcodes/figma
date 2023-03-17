@@ -1,85 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-   
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
 </head>
+
 <body>
- <div class="tio">
-     <div style="margin-left: 10%;margin-right:5%;" >
+  <!-- navbar start -->
+  <div style="padding-left: 5%;padding-right:5%" ; id="home">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo1.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <p class="nav-link " aria-current="page" href="#">Home</p>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link " aria-current="page" href="#">Roadmap</p>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link " aria-current="page" href="#">Feature</p>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link" href="#">Partner</p>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link" href="#">Team</p>
+            </li>
+            <li class="nav-item">
+              <p class="nav-link " aria-current="page" href="#"><button class="bnm">Join our Team</button></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+    <!-- banner -->
 
-  <ol>
-    <img src="images/logo1.png" id="kjl" alt="">
-    <li><a href="#home"><button class= "active">Join our team</button></a></li>
-    <li><a href="#news">Roadmap</a></li>
-    <li><a href="#contact">Partner</a></li>
-    <li><a href="#cont">Home</a></li>
-    <li><a href="#cont">Team</a></li>
-    
-  </ol>
-  <div id = "cvb">
-  <p id = "tuv"> Magical Shoes </p>
-  <img src="images/tri.png" alt="" id="tyu">
-  <img src="images/mshoes.png" id="tic" alt="">
-  <p id = "wer"> on the Blockchain </p>
-  <p id="poi">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ligula ac leo dignissim phasellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ligula ac leo dignissim phasellus.</p>
-  <div >
-    <p id="bt">EXPLORE</p>
-    <p id="mt">MINT</p>
-   </div>
+    <div id="banner">
+      <div class="banner-content">
+        <div class="wer">Magical Shoes</div>
+        <div class="res">on the block chain</div>
+        <div class="jkl">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ligula ac leo dignissim phasellus.Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Volutpat ligula ac leo dignissim phasellus.</p>
+        </div>
+        <div class="button">
+          <button class="bt">explore</button>
+          <button class="mt">mint</button>
+        </div>
+
+
+      </div>
+      <div class="right-content">
+        <img src="images/mshoes.png" alt="" class="tyu">
+        <img src="images/tri.png" alt="" class="iop">
+
+      </div>
+
+
+    </div>
   </div>
-  
+  <!-- card -->
+  <div id="card">
+    <div style="display: flex; flex-wrap: wrap;" class="card-content">
+      <div class="card mb-3 d-flex" style="width: 18rem;background-color: transparent;" class="d-flex">
+        <div class="card-body">
+          <h5 class="card-title"><img src="images/rect1a.png" alt="" class="po"></h5>
 
-    <div id="container"> 
-      <div><img src="images/rect.png" alt="" id = "rty">
-      <img src="images/rect1a.png" alt="" id = "rtz"></div>
+          <p class="fg">Tohuku Zunko</>
+        </div>
+      </div>
 
-      <div><img src="images/rect.png" alt="" id = "rta">
-      <img src="images/rect1a.png" alt="" id = "rtq"></div>
+      <div class="card text-center mb-3" style="width: 18rem;background-color: transparent">
+        <div class="card-body">
+          <h5 class="card-title"><img src="images/rect1a.png" alt="" class="po"></h5>
 
-      <div><img src="images/rect.png" alt="" id = "rtb">
-      <img src="images/rect1a.png" alt="" id = "rtp"></div>
+          <a class="fg">Tohuku Zunko</a>
+        </div>
+      </div>
 
-      <div><img src="images/rect.png" alt="" id = "rtc">
-      <img src="images/rect1a.png" alt="" id = "rtk"></div>
+      <div class="card text-center mb-3" style="width: 18rem;background-color: transparent">
+        <div class="card-body">
+          <h5 class="card-title"><img src="images/rect1a.png" alt="" class="po"></h5>
 
-      <div><img src="images/rect.png" alt="" id = "rtd">
-      <img src="images/rect1a.png" alt="" id = "rtf"></div>
+          <a class="fg">Tohuku Zunko</a>
+        </div>
+      </div>
+
+      <div class="card text-center mb-3" style="width: 18rem;background-color: transparent">
+        <div class="card-body">
+          <h5 class="card-title"><img src="images/rect1a.png" alt="" class="po"></h5>
+
+          <a class="fg">Tohuku Zunko</a>
+        </div>
+      </div>
+
+      <div class="card text-center mb-3" style="width: 18rem;background-color: transparent">
+        <div class="card-body">
+          <h5 class="card-title"><img src="images/rect1a.png" alt="" class="po"></h5>
+
+          <a class="fg">Tohuku Zunko</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="imgcont">
+      <img src="./images/Vector.svg" alt="vector" class="vector">
+      <img src="./images/Vector 3.svg" alt="vector3" class="vector3">
+    </div>
+
+
     
+  </div>
+
+  <div class="section2">
+    <div class="tricard">
+      <!-- <img src="./images/Vector 1 (1).svg" alt="tri">
+      <img src="./images/Vector 2.svg" alt="vector2"> -->
+      <div class="haem">
+        
+        <h1>FEATURING MOVE TO EARN</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac egestas pharetra, interdum ullamcorper vestibulum
+          urna, purus <br>aenean sit. Aliquam tempus venenatis ac id est sit consectetur at tortor. Nisl, at integer
+          justo, dolor tortor imperdiet eleifend <br>purus quis. Mi, cras pulvinar laoreet pharetra semper aliquet nam
+          tortor.</p>
+      </div>
+    </div>
+      <div style="display: flex; flex-wrap: wrap;" class="pov">
+        <div class="subcaed"> <img src="images/Rectangle 381 (1).png" alt="">
+         
+        
+        
+        </div>
+
+        <div class="subcaed"><img src="images/Rectangle 381 (1).png" alt=""></div>
+        <div class="subcaed"><img src="images/Rectangle 381 (1).png" alt=""></div>
+      </div>
+       <!-- second banner -->
+     
+
+       <div id="bann">
+        <div class="banner-cont">
+          <div class="ler">Move 2 Earn</div>
+          
+          <div class="jsv">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Volutpat ligula ac leo dignissim phasellus.Lorem
+              ipsum <br>dolor sit amet, consectetur adipiscing elit. Volutpat ligula <br>ac leo dignissim phasellus.</p>
+          </div>
+          <div class="log">
+            <img src="images/image 36.png" alt="">
+          </div>
   
-    </div>
-    <div>
-      <img src="images/img3.png" alt="" id = "sec">
-    </div>
 
 
-</div>
+      
+    </div>
   
 
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
 
 </body>
+
 </html>
