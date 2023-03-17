@@ -3,6 +3,8 @@
 
 body{
     background-image: url(images/img1.png);  
+    background-repeat: no-repeat;
+    background-color:#082338;
 }
 ul {
     list-style-type: none;
@@ -33,9 +35,9 @@ ul {
   }
   #tuv{
 position: absolute;
-width: 596px;
+width: 50%;
 height: 157px;
-left: 151px;
+left: 11%;
 top: 20%;
 display: flex;
 flex-wrap: wrap;
@@ -46,24 +48,24 @@ width:50%;
 font-style: normal;
 font-weight: 700;
 font-size: 100px;
-line-height: 157px;
+line-height: 111px;
 text-shadow: 0px 0px 7px #1EB808, 0px 0px 7px #1EB808, 0px 0px 7px #1EB808, 0px 0px 7px #1EB808, 0px 0px 7px #1EB808, 0px 0px 7px #1EB808;
   }
 #tic{
     position:absolute;
-    height: 540px;
-    width:825px;
-    left: 844px;
-    top: 226px;
+    height: 65%;
+    width:50%;
+    left: 52%;
+    top: 40%;
     border-radius: 0px;
     
 }
 #tyu{
     position: absolute;
-width: 30%;
-height: 440px;
-left: 1008px;
-top: 35%;
+width: 35%;
+height: 60%;
+left: 60%;
+top: 40%;
 z-index: -1;
 }
 #wer{
@@ -71,7 +73,7 @@ z-index: -1;
 width: 30%;
 height: 69px;
 left: 152px;
-top: 47%;
+top: 49%;
 
 font-family: 'Saira SemiCondensed';
 font-style: normal;
@@ -83,10 +85,10 @@ color: #FFF3F3;
 }
 #poi{
 position: absolute;
-width: 30%;
-height: 45px;
+width: 35%;
+height: 50px;
 left: 152px;
-top: 62%;
+top: 67%;
 
 font-family: 'Saira';
 font-style: normal;
@@ -108,7 +110,7 @@ color: #FFFFFF;
   width: 12%;
   height: 54px;
   left: 152px;
-  top: 558px;
+  top: 87%;
   text-align: center;
   padding-top: 12px;
   background: #1EB808;
@@ -122,7 +124,7 @@ position: absolute;
 width: 13%;
 height: 54px;
 left: 368px;
-top: 558px;
+top: 87%;
 text-align: center;
 padding-top:12px;
 border: 1px solid #B2F3B0;
@@ -136,52 +138,53 @@ font-family: 'Saira SemiCondensed';
   width: 30%;
 }
 #pol{
-  display: flex;
+  right:10%;
+;
 
 }
 #rty{
   position: absolute;
-width: 255.26px;
-height: 343px;
-left: 150px;
-top: 800px;
+width: 16%;
+height: 48%;
+left: 11%;
+top: 133%;
 
 background: #2F2F2F;
 border-radius: 20px 20px 0px 0px;
 }
 #rtz{
 position: absolute;
-width: 228.29px;
-height: 256.56px;
-left: 162.57px;
-top: 812.57px;
+width: 14%;
+height: 35%;
+left: 12%;
+top: 135%;
 border-radius: 20px;
 }
 #rta{
   position: absolute;
-width: 255.26px;
-height: 343px;
-left: 430.78px;
-top: 800px;
+width: 16%;
+height: 48%;
+left: 29%;
+top: 133%;
 
 background: #2F2F2F;
 border-radius: 20px 20px 0px 0px;
 }
 #rtq{
   position: absolute;
-width: 228.29px;
-height: 256.56px;
-left: 443.22px;
-top: 812.57px;
+width: 14%;
+height: 35%;
+left: 30%;
+top: 135%;
 border-radius: 20px;
 
 }
 #rtb{
   position: absolute;
-width: 255.26px;
-height: 343px;
-left: 711.56px;
-top: 800px;
+width: 16%;
+height: 48%;
+left: 47%;
+top: 133%;
 
 background: #2F2F2F;
 border-radius: 20px 20px 0px 0px;
@@ -189,39 +192,59 @@ border-radius: 20px 20px 0px 0px;
 #rtp{
 
 position: absolute;
-width: 228.29px;
-height: 256.56px;
-left: 723.87px;
-top: 812.57px;
+width: 14%;
+height: 35%;
+left: 48%;
+top: 135%;
 border-radius: 20px;
 }
 #rtc{position: absolute;
-  width: 255.26px;
-  height: 343px;
-  left: 991.04px;
-  top: 800px;
+  width: 16%;
+  height: 48%;
+  left: 65%;
+  top: 133%;
   
   background: #2F2F2F;
   border-radius: 20px 20px 0px 0px;}
 #rtk{position: absolute;
-  width: 228.29px;
-  height: 256.56px;
-  left: 1003.47px;
-  top: 812.57px;
+  width: 14%;
+  height: 35%;
+  left: 66%;
+  top: 135%;
   border-radius: 20px;}
 #rtd{position: absolute;
-  width: 255.26px;
-  height: 343px;
-  left: 1271.82px;
-  top: 800px;
+  width: 16%;
+  height: 48%;
+  left: 83%;
+  top: 133%;
+  right: 10%;
+ 
+  
   
   background: #2F2F2F;
   border-radius: 20px 20px 0px 0px;}
 #rtf
 {position: absolute;
-  width: 228.29px;
-  height: 256.56px;
-  left: 1284.12px;
-  top: 812.57px;
+  width: 14%;
+  height: 35%;
+  left: 84%;
+  top: 135%;
+  right: 11%;
+  
 
   border-radius: 20px;}
+  #sec{
+    position: absolute;
+width: 80%;
+height: 70%;
+left: 151px;
+top: 195%;
+position: absolute;
+width: 1380px;
+height: 570px;
+left: 152px;
+top: 1210px;
+
+border: 2px solid #B2F3B0;
+box-shadow: 0px 0px 10px 5px #1EB808;
+  }
